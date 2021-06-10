@@ -643,7 +643,7 @@ footer img{
 }
 #wood{
     display: block;
-    width: 90%;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
     color: inherit;
@@ -651,10 +651,9 @@ footer img{
 }
 #wood img{
     max-height: 200px;
-    max-width: 80%;
+    max-width: 40%;
     float: left;
     background-color: inherit;
-    margin-left: 1rem;
     margin-right: 1rem;
     border-radius: 10px;
     border: 2px solid #041e42;
