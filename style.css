@@ -338,6 +338,81 @@ footer img{
     font-weight: lighter;
 }
 
+#wvu{
+    background-image: url("./images/WVU/background__topo-black-transparent--1.0.0.png");
+    background-repeat: no-repeat;
+    background-position: relative;
+    background-size: cover;
+    background-color: #EAAA00;
+    
+    color: #002855;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    min-width: 400px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: .1rem;
+    margin-bottom: .1rem;
+    display: inline-block;
+    text-align: center;
+    padding: 1em;
+}
+
+#wvu img{
+    display: block;
+    height: 3rem;
+    margin-bottom: 0.1rem;
+    margin-top: 0.1rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: transparent;
+}
+#wvu h1{
+    background-image: inherit;
+    background-color: inherit;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #002855;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+#wvu b{
+    background-color: inherit;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #002855;
+    font-size: inherit;
+}
+#wvu h2{
+    background-color: transparent;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #002855;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+#wvu i{
+    background-color: transparent;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #002855;
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+#wvu p{
+    color: #002855;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
 #ccac{
     background-color: #aa182c;
     color: #ffffff;
