@@ -114,6 +114,7 @@ nav img{
     color: #041e42;
     font-size: 1.5em;
 }
+
 #wrapper p{
     background-color: #c0c7d0;
     color: #041e42;
@@ -143,9 +144,163 @@ nav img{
 }
 #wrapper i{
     background-color: inherit;
-    color: inherit;
-    
+    color: inherit;   
 }
+#travel{
+    background-color: inherit;
+    color: inherit;
+    text-align: center;
+    align-items: center;
+}
+#travel img{
+    background-color: inherit;
+    height: 3rem;
+}
+#travel .coverPhoto{
+    background-color: inherit;
+    justify-content: center;
+    text-align: center;
+    max-width: 100%;
+}
+#travel .coverPhoto img{
+    max-height: 200px;
+    height: auto !important;
+    max-width: 80%;
+    border-radius: 1rem;
+}
+#travel p{
+    background-color: inherit;
+    color: inherit;
+}
+#travel aside {
+    margin-bottom: 1.25rem;
+    text-align: center;
+    background-color: inherit;
+}
+#travel aside button {
+    padding: 0.4rem 0.65rem;
+    border-radius: 1rem;
+    background-color: #041e42;
+    color: #e0e3e7;
+    border: 1px solid #52C32F;
+    max-width: 80%;
+    font-size: 1.0rem;
+    font-weight: bold;
+}
+#travel aside button:hover {
+    background-color: #52C32F;
+    color: #041e42;
+    border: 1px solid #041e42;
+}
+#travel iframe {
+    width: 80%;
+    height: 900px;
+    max-height:80vh;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+/* Alaska Travel Section */
+#alaskaShowHide {
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+    background-color: inherit;
+    color: inherit;
+}
+#alaskaShowHide h1{
+    text-align: center;
+    color: inherit;
+    background-color: inherit;
+    font-size: 1rem;
+}
+#alaskaTravelGallery{
+    background-color: inherit;
+    color: inherit;
+}
+#alaskaTravelGallery img{
+    max-width: 80%;
+    height: auto;
+    color: inherit;
+}
+/* Iceland Travel Section */
+#icelandShowHide {
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+    background-color: inherit;
+    color: inherit;
+}
+#icelandShowHide h1{
+    text-align: center;
+    color: inherit;
+    background-color: inherit;
+    font-size: 1rem;
+}
+#icelandTravelGallery{
+    background-color: inherit;
+    color: inherit;
+}
+#icelandTravelGallery img{
+    max-width: 80%;
+    height: auto;
+    color: inherit;
+}
+/* AUS / NZ Travel Section */
+#nzShowHide {
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+    background-color: inherit;
+    color: inherit;
+}
+#nzShowHide h1{
+    text-align: center;
+    color: inherit;
+    background-color: inherit;
+    font-size: 1rem;
+}
+#nzTravelGallery{
+    background-color: inherit;
+    color: inherit;
+}
+#nzTravelGallery img{
+    max-width: 80%;
+    height: auto;
+    color: inherit;
+}
+/* Wyoming Travel Section */
+#wyShowHide {
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+    background-color: inherit;
+    color: inherit;
+}
+#wyShowHide h1{
+    text-align: center;
+    color: inherit;
+    background-color: inherit;
+    font-size: 1rem;
+}
+#wyTravelGallery{
+    background-color: inherit;
+    color: inherit;
+}
+#wyTravelGallery img{
+    max-width: 80%;
+    height: auto;
+    color: inherit;
+}
+
 #web{
     background-color: inherit;
     color: inherit;
@@ -746,6 +901,12 @@ footer img{
     margin-top: 1rem;
     clear: both;
 }
+
+/* Style the horizontal line */
+hr {
+	margin: 1rem auto;
+}
+
 @media only screen and (max-width: 900px) {
     .hide{
         display: none;
