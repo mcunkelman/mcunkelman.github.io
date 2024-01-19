@@ -67,4 +67,19 @@ function alaskaShowHide() {
       x.style.display = "none";
     }
   }
-  
+  function norwayShowHide() {
+    var x = document.getElementById("norwayShowHide");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  function norwayGalleryShowHide() {
+    var x = document.getElementById("norwayTravelGallery");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }  

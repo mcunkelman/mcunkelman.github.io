@@ -300,7 +300,31 @@ nav img{
     height: auto;
     color: inherit;
 }
-
+/* Norway Travel Section */
+#norwayShowHide {
+    display: block;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+    background-color: inherit;
+    color: inherit;
+}
+#norwayShowHide h1{
+    text-align: center;
+    color: inherit;
+    background-color: inherit;
+    font-size: 1rem;
+}
+#norwayTravelGallery{
+    background-color: inherit;
+    color: inherit;
+}
+#norwayTravelGallery img{
+    max-width: 80%;
+    height: auto;
+    color: inherit;
+}
 #web{
     background-color: inherit;
     color: inherit;
